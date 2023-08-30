@@ -10,7 +10,7 @@ Java 17, Maven, Spring 3 (Boot, MVC, Data, Security), Hibernate, Postgresql, Fre
 
 ## How to deploy with docker
 ```
-mvn -f shop-telegram-bot/admin-panel/ package
+mvn -f shop-telegram-bot/admin-panel/ package.
 mvn -f shop-telegram-bot/telegram-bot/ package
 
 docker build -t shop-admin-panel shop-telegram-bot/admin-panel/
